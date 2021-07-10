@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,500;1,600&display=swap');
+
+.header{
+ display: flex;
+ justify-content: center;
+ background-color: rgb(2, 10, 20);
+ color: white;
+ width: 100%;
+ position: fixed;
+ z-index: 100;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 600;
+ font-size: 2.5rem;
+ padding: 1.2rem;
+ cursor: pointer;
+ text-transform: uppercase;
+}
+
+@media screen and (max-width: 480px){
+.header{
+  font-size: 1.2rem;
+}
+}
