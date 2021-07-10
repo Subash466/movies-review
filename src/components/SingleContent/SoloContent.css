@@ -35,3 +35,9 @@
   padding: 0 2px;
   padding-bottom: 3px;
 }
+@media (max-width: 450px){
+ .container{
+   width: 250px;
+   min-height: 330px;
+ }
+}
