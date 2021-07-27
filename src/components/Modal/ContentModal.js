@@ -13,7 +13,6 @@ import "./ContentModal.css";
 import { Button } from "@material-ui/core";
 import YouTubeIcon from "@material-ui/icons/YouTube";
 import Carousel from "../Carousel/Carousel";
-require('dotenv').config();
 
 const useStyles = makeStyles((theme) => ({
   modal: {
@@ -72,7 +71,7 @@ export default function TransitionsModal({ children, media_type, id }) {
 
   return (
     <>
-      <div className="container" style={{ cursor: "pointer" }} color="inherit" onClick={handleOpen}>
+      <div className="container" style={{ cursor: "pointer" }} color="inherit" onClick={handleOpen} >
         {children}
       </div>
       <Modal

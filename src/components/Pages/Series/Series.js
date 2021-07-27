@@ -2,7 +2,7 @@ import React,{ useState,useEffect } from 'react';
 import axios from "axios";
 import SoloContent from '../../SingleContent/SoloContent';
 import "../Trending/Trending.css";
-require('dotenv').config();
+
 
 const Series = () => {
  
