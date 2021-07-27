@@ -71,12 +71,7 @@ export default function TransitionsModal({ children, media_type, id }) {
 
   return (
     <>
-      <div
-        className="container"
-        style={{ cursor: "pointer" }}
-        color="inherit"
-        onClick={handleOpen}
-      >
+      <div className="container" style={{ cursor: "pointer" }} color="inherit" onClick={handleOpen}>
         {children}
       </div>
       <Modal
