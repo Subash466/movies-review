@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import axios from "axios";
 import SoloContent from '../../SingleContent/SoloContent';
-import "./Trending.css"
+import "./Trending.css";
+require('dotenv').config();
 
 const Trending = () => {
   const [content,setContent]= useState([])

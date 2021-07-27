@@ -4,6 +4,7 @@ import SearchIcon from "@material-ui/icons/Search";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import SoloContent from "../../SingleContent/SoloContent";
+require('dotenv').config();
 
 const Search = () => {
   const [type, setType] = useState(0);
